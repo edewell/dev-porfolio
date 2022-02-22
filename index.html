@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" media="screen and (max-width:800px)" href="tablet.css">
+    <link rel="stylesheet" media="screen and (max-width:530px" href="phone.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#services">Languages</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <div class="main">
+            <h1 class="headings">I Am <br> Eddie Ewell III</h1>
+            <button class="btn">
+                Hire Me
+            </button>
+        </div>
+    </section>
+
+    <section id="about">
+        <div id="pic">
+            <h1 class="headings">ABOUT ME</h1>
+            <img src="IMG-0053.JPG" alt="">
+            <div id="intro">
+                <h2>Eddie Ewell III</h2>
+                <p>I am a Software Developer from Memphis, TN. I recently finished a Coding program Called Code Crew that partners with the Collective Blueprint.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <h1 class="headings">Languages</h1>
+        <div class="row">
+            <div class="box">
+                <img src="Services/IMG-2197.PNG" alt="">
+                <h1 class="headings">HTML</h1>
+                
+            </div>
+            <div class="box">
+                <img src="Services/IMG-2198.JPG" alt="">
+                <h1 class="headings">JS</h1>
+              
+            </div>
+            <div class="box">
+                <img src="Services/IMG-2199.PNG" alt="">
+                <h1 class="headings">CSS</h1>
+            </div>
+            <div class="box">
+                <img src="Services/IMG-2200.PNG" alt="">
+                <h1 class="headings">Python</h1>
+            </div>
+            <div class="box">
+                <img src="Services/IMG-2201.JPG" alt="">
+                <h1 class="headings">React</h1>
+               
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1 class="headings">CONTACT</h1>
+        <form action="" class="form">
+            <input type="text" name="name" class="input" placeholder="Enter Your Name">
+            <input type="email" name="email" class="input" placeholder="Enter Your Email">
+            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
+            <input type="submit" value="SEND" id="send">
+        </form>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
